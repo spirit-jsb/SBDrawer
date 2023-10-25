@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9400740D2AE8A9510042F816 /* SBDrawer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940074042AE8A9510042F816 /* SBDrawer.framework */; };
-		940074412AE8A9A10042F816 /* SBDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9400743F2AE8A9A10042F816 /* SBDrawer.h */; };
 		940074432AE8A9B20042F816 /* SBDrawerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940074422AE8A9B20042F816 /* SBDrawerTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +24,6 @@
 /* Begin PBXFileReference section */
 		940074042AE8A9510042F816 /* SBDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SBDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9400740C2AE8A9510042F816 /* SBDrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBDrawerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9400743F2AE8A9A10042F816 /* SBDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBDrawer.h; sourceTree = "<group>"; };
 		940074422AE8A9B20042F816 /* SBDrawerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SBDrawerTests.swift; path = Tests/SBDrawerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +75,6 @@
 		9400743E2AE8A9A10042F816 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				9400743F2AE8A9A10042F816 /* SBDrawer.h */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -89,7 +86,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				940074412AE8A9A10042F816 /* SBDrawer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
