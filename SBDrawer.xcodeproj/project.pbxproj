@@ -9,7 +9,16 @@
 /* Begin PBXBuildFile section */
 		9400740D2AE8A9510042F816 /* SBDrawer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940074042AE8A9510042F816 /* SBDrawer.framework */; };
 		940074432AE8A9B20042F816 /* SBDrawerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940074422AE8A9B20042F816 /* SBDrawerTests.swift */; };
+		9400747A2AE8B6870042F816 /* UIViewController+SBDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940074792AE8B6870042F816 /* UIViewController+SBDrawer.swift */; };
 		9400747D2AE8BD0E0042F816 /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400747C2AE8BD0E0042F816 /* Runtime.swift */; };
+		940074802AE8C0450042F816 /* SBDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400747F2AE8C0450042F816 /* SBDrawer.swift */; };
+		940074842AE8E6830042F816 /* SBDrawerTransitioningController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940074832AE8E6830042F816 /* SBDrawerTransitioningController.swift */; };
+		940074862AE8E86D0042F816 /* SBDrawerPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940074852AE8E86D0042F816 /* SBDrawerPresentationController.swift */; };
+		940074882AE8EBC20042F816 /* SBDrawerPresentingAnimatedTransitioningController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940074872AE8EBC20042F816 /* SBDrawerPresentingAnimatedTransitioningController.swift */; };
+		9400748A2AE8EBCC0042F816 /* SBDrawerDismissingAnimatedTransitioningController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940074892AE8EBCC0042F816 /* SBDrawerDismissingAnimatedTransitioningController.swift */; };
+		9400748C2AE8EBE70042F816 /* SBDrawerPresentingInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400748B2AE8EBE70042F816 /* SBDrawerPresentingInteractiveTransition.swift */; };
+		9400748E2AE8EBF00042F816 /* SBDrawerDismissingInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400748D2AE8EBF00042F816 /* SBDrawerDismissingInteractiveTransition.swift */; };
+		940074902AE912F50042F816 /* SBDrawerDimmingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400748F2AE912F50042F816 /* SBDrawerDimmingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +35,16 @@
 		940074042AE8A9510042F816 /* SBDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SBDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9400740C2AE8A9510042F816 /* SBDrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBDrawerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		940074422AE8A9B20042F816 /* SBDrawerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SBDrawerTests.swift; path = Tests/SBDrawerTests.swift; sourceTree = "<group>"; };
+		940074792AE8B6870042F816 /* UIViewController+SBDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+SBDrawer.swift"; sourceTree = "<group>"; };
 		9400747C2AE8BD0E0042F816 /* Runtime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runtime.swift; sourceTree = "<group>"; };
+		9400747F2AE8C0450042F816 /* SBDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBDrawer.swift; sourceTree = "<group>"; };
+		940074832AE8E6830042F816 /* SBDrawerTransitioningController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBDrawerTransitioningController.swift; sourceTree = "<group>"; };
+		940074852AE8E86D0042F816 /* SBDrawerPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBDrawerPresentationController.swift; sourceTree = "<group>"; };
+		940074872AE8EBC20042F816 /* SBDrawerPresentingAnimatedTransitioningController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBDrawerPresentingAnimatedTransitioningController.swift; sourceTree = "<group>"; };
+		940074892AE8EBCC0042F816 /* SBDrawerDismissingAnimatedTransitioningController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBDrawerDismissingAnimatedTransitioningController.swift; sourceTree = "<group>"; };
+		9400748B2AE8EBE70042F816 /* SBDrawerPresentingInteractiveTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBDrawerPresentingInteractiveTransition.swift; sourceTree = "<group>"; };
+		9400748D2AE8EBF00042F816 /* SBDrawerDismissingInteractiveTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBDrawerDismissingInteractiveTransition.swift; sourceTree = "<group>"; };
+		9400748F2AE912F50042F816 /* SBDrawerDimmingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBDrawerDimmingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +95,19 @@
 		9400743E2AE8A9A10042F816 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				9400747E2AE8BD8F0042F816 /* Core */,
+				940074782AE8B66B0042F816 /* Extensions */,
 				9400747B2AE8BCF50042F816 /* Utils */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		940074782AE8B66B0042F816 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				940074792AE8B6870042F816 /* UIViewController+SBDrawer.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		9400747B2AE8BCF50042F816 /* Utils */ = {
@@ -88,6 +116,21 @@
 				9400747C2AE8BD0E0042F816 /* Runtime.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		9400747E2AE8BD8F0042F816 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9400747F2AE8C0450042F816 /* SBDrawer.swift */,
+				940074872AE8EBC20042F816 /* SBDrawerPresentingAnimatedTransitioningController.swift */,
+				940074892AE8EBCC0042F816 /* SBDrawerDismissingAnimatedTransitioningController.swift */,
+				9400748B2AE8EBE70042F816 /* SBDrawerPresentingInteractiveTransition.swift */,
+				9400748D2AE8EBF00042F816 /* SBDrawerDismissingInteractiveTransition.swift */,
+				9400748F2AE912F50042F816 /* SBDrawerDimmingView.swift */,
+				940074852AE8E86D0042F816 /* SBDrawerPresentationController.swift */,
+				940074832AE8E6830042F816 /* SBDrawerTransitioningController.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +194,7 @@
 				TargetAttributes = {
 					940074032AE8A9510042F816 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 					9400740B2AE8A9510042F816 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -199,7 +243,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				940074902AE912F50042F816 /* SBDrawerDimmingView.swift in Sources */,
 				9400747D2AE8BD0E0042F816 /* Runtime.swift in Sources */,
+				940074882AE8EBC20042F816 /* SBDrawerPresentingAnimatedTransitioningController.swift in Sources */,
+				9400748C2AE8EBE70042F816 /* SBDrawerPresentingInteractiveTransition.swift in Sources */,
+				940074802AE8C0450042F816 /* SBDrawer.swift in Sources */,
+				9400748E2AE8EBF00042F816 /* SBDrawerDismissingInteractiveTransition.swift in Sources */,
+				9400747A2AE8B6870042F816 /* UIViewController+SBDrawer.swift in Sources */,
+				9400748A2AE8EBCC0042F816 /* SBDrawerDismissingAnimatedTransitioningController.swift in Sources */,
+				940074862AE8E86D0042F816 /* SBDrawerPresentationController.swift in Sources */,
+				940074842AE8E6830042F816 /* SBDrawerTransitioningController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +400,7 @@
 		940074172AE8A9510042F816 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -369,6 +423,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -377,6 +432,7 @@
 		940074182AE8A9510042F816 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -407,6 +463,7 @@
 		9400741A2AE8A9510042F816 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -424,6 +481,7 @@
 		9400741B2AE8A9510042F816 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
